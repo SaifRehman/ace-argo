@@ -11,7 +11,7 @@ spec:
     path: .
   destination:
     server: https://kubernetes.default.svc
-    namespace: your-app-namespace
+    namespace: acm
   syncPolicy:
     automated:
       prune: true
